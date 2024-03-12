@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prohil</class>
+ <widget class="QDialog" name="prohil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_login">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ваш логин</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_login">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>220</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_mail">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_mail">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ваша почта</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_phone">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>170</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_reg">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Профиль</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ваше имя </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_phone">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ваш номер телефона</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>70</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>270</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_password">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>270</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ваш пароль</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>330</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Редактировать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>380</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
